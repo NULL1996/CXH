@@ -1,0 +1,13 @@
+E:\工作室项目\Solution1\BLL\bin\Debug\BLL.dll
+E:\工作室项目\Solution1\BLL\bin\Debug\BLL.pdb
+E:\工作室项目\Solution1\BLL\bin\Debug\DAL.dll
+E:\工作室项目\Solution1\BLL\bin\Debug\DALFactory.dll
+E:\工作室项目\Solution1\BLL\bin\Debug\IDAL.dll
+E:\工作室项目\Solution1\BLL\bin\Debug\Models.dll
+E:\工作室项目\Solution1\BLL\bin\Debug\DALFactory.pdb
+E:\工作室项目\Solution1\BLL\bin\Debug\DAL.pdb
+E:\工作室项目\Solution1\BLL\bin\Debug\IDAL.pdb
+E:\工作室项目\Solution1\BLL\bin\Debug\Models.pdb
+E:\工作室项目\Solution1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\工作室项目\Solution1\BLL\obj\Debug\BLL.dll
+E:\工作室项目\Solution1\BLL\obj\Debug\BLL.pdb

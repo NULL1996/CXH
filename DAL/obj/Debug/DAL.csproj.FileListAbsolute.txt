@@ -1,0 +1,9 @@
+E:\工作室项目\Solution1\DAL\bin\Debug\DAL.dll
+E:\工作室项目\Solution1\DAL\bin\Debug\DAL.pdb
+E:\工作室项目\Solution1\DAL\bin\Debug\IDAL.dll
+E:\工作室项目\Solution1\DAL\bin\Debug\Models.dll
+E:\工作室项目\Solution1\DAL\bin\Debug\IDAL.pdb
+E:\工作室项目\Solution1\DAL\bin\Debug\Models.pdb
+E:\工作室项目\Solution1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\工作室项目\Solution1\DAL\obj\Debug\DAL.dll
+E:\工作室项目\Solution1\DAL\obj\Debug\DAL.pdb
