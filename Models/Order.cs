@@ -16,5 +16,6 @@ namespace Models
         public string Deliver_Way { get; set; }
 
 
+
     }
 }

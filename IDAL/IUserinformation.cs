@@ -13,5 +13,7 @@ namespace IDAL
 {
      public interface IUserInformation
     {
+        //查看个人信息
+        DataTable SelectAll(int User_ID);
     }
 }

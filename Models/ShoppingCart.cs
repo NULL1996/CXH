@@ -12,7 +12,8 @@ namespace Models
         public int User_ID { get; set; }
         public int Good_ID { get; set; }
         public DateTime Time { get; set; }
-        public string  Number { get; set; }
+        public string Number { get; set; }
         public float Goods_Price { get; set; }
+
     }
 }

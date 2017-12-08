@@ -12,5 +12,10 @@ namespace IDAL
 {
     public interface IOrder
     {
+        //添加新订单
+        DataTable Insert_Orders(Order order);
+
+        //查看订单
+        DataTable SelectAll(int User_ID);
     }
 }

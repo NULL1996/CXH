@@ -12,5 +12,8 @@ namespace IDAL
 {
     public interface IOrderDetails
     {
+        //查看订单详情
+        DataTable SelectOrder(int Users_Id, int Goods_ID);
+       
     }
 }

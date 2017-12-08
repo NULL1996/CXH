@@ -8,10 +8,10 @@ namespace Models
 {
     public class Goods
     {
-        public int Goods_ID { get; set; }
-        public string Goods_Name { get; set; }
-        public int Goods_Number { get; set; }
-        public float Goods_Price { get; set; }
-        public string Goods_Image { get; set; }
+        public int Good_ID { get; set; }
+        public string Good_Name { get; set; }
+        public int Good_Number { get; set; }
+        public int Good_Price { get; set; }
+        public string Good_Image { get; set; }
     }
 }

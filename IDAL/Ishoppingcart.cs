@@ -12,6 +12,10 @@ namespace IDAL
 {
     public interface IShoppingCart
     {
+        //查看购物车
+        DataTable SelectAll(int userId);
+        //添加购物车
+        int Insert_Goods(ShoppingCart shpCart);
 
     }
 }

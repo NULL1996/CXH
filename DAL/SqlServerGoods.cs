@@ -42,7 +42,7 @@ namespace DAL
 
         public DataTable SelectTop6()
         {
-            string sql = "select top 6 * from Goods order by Good_ID desc";
+            string sql = "select top 6 * from Goods order by Goods_ID desc";
             return DBHelper.GetFillData(sql);
         }
     }

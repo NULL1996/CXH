@@ -13,5 +13,6 @@ namespace Models
         public int Goods_ID { get; set; }
         public DateTime Collection_Time { get; set; }
 
+
     }
 }

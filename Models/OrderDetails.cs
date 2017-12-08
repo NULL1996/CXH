@@ -14,5 +14,6 @@ namespace Models
         public int Number { get; set; }
         public int Subtotal { get; set; }
         public string Localtion { get; set; }
+
     }
 }

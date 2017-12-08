@@ -14,5 +14,6 @@ namespace Models
         public string User_Name { get; set; }
         public Boolean Auditstatus { get; set; }
         public int Goods_ID { get; set; }
+
     }
 }

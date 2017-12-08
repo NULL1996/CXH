@@ -16,13 +16,13 @@ namespace DAL
     {
         public int Insert(User us)
         {
-            string sql = "insert into Users(user_name,user_password,user_ID,phone_number) values(@user_name,@user_password,@user_ID,@phone_number)";
+            string sql = "insert into Users(User_ID,Phone_Number,User_Password,User_Name) values(@User_ID,@Phone_Number,@User_Password,@User_Name)";
             SqlParameter[] para = new SqlParameter[]
              {
-                new SqlParameter("@UserName",us.user_name),
-                new SqlParameter("@Password",us.user_password),
-                new SqlParameter("@Email",us.user_ID),
-                new SqlParameter("@Phone",us.phone_number)
+                new SqlParameter("@User_ID",us.User_ID),
+                new SqlParameter("@Phone_Number",us.Phone_Number),
+                new SqlParameter("@User_Password",us.User_Password),
+                new SqlParameter("@User_Name",us.User_Name)
              };
             return DBHelper.GetExcuteNonQuery(sql, para);
         }
