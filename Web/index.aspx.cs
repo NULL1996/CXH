@@ -29,7 +29,7 @@ namespace Web
             if (dt != null && dt.Rows.Count != 0)
             {
                 ListView1.DataSource = dt;
-                ListView1.DataBind();
+                ListView1.DataBind();//text
             }
         }
     }
