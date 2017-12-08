@@ -247,7 +247,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </LayoutTemplate>
             <ItemTemplate>
                    <div class="col-md-4 grid-top">
-				<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="<%# Eval("Goods_Image") %>" alt="">
+				<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" ="<%#Eval("Goods_Image")%>" alt="">
 							<div class="b-wrapper">
 									<h3 class="b-animate b-from-left    b-delay03 ">
 										<span><%# Eval("Goods_Name") %></span>	
