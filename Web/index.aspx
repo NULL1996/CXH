@@ -239,136 +239,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 	<div class="content-top">
 		<h1>新品</h1>
-
-            <%--<asp:ListView ID="ListView1" runat="server">
-                <LayoutTemplate>
-                    <div class="grid-in"  id="itemPlaceHolderContainer" runat="server" >
+        <asp:ListView ID="ListView1" runat="server">
+            <LayoutTemplate>
+                <div class="grid-in"  id="itemPlaceHolderContainer" runat="server" >
                         <div id="itemPlaceHolder" runat="server"></div>
                     </div>
                 </LayoutTemplate>
-                 <ItemTemplate>
-                    <div style="font-family: 'Microsoft YaHei'; border-bottom: 1px dashed #e3e3e5; padding: 5px; overflow: hidden;">
-                        <div style="float: left; padding: 5px; width: 80%;">
-                            <asp:HyperLink ID="HyperLink1" runat="server" Font-Names="微软雅黑" ToolTip='<%#"点击查看："+ Eval("Goods_Image") %>' Font-Size="12" NavigateUrl='<%#"~/NewsDetail.aspx?id="+Eval("Goods_ID") %>' ForeColor="#2b2b2b" Font-Underline="false" Text='<%#Eval("Goods_Image") %>' onmouseover="this.style.textDecoration='underline';this.style.color='steelblue';" onmouseout="this.style.textDecoration='none';this.style.color='#2b2b2b'"></asp:HyperLink>
-                        </div>
-                        <div style="float: right; padding: 5px; width: 12%;">
-                            <asp:Label ID="Label1" runat="server" Font-Names="微软雅黑" Font-Size="10" Text='<%#String.Concat(Eval("Goods_Price")) %>' ForeColor="gray"></asp:Label>
-                        </div>
-                    </div>
-                </ItemTemplate>--%>
-        <asp:ListView ID="ListView1" runat="server">
-           
-                <ItemTemplate>
-                    <div class="col-md-4 grid-top">
-				        <a href='<%# "single.aspx?id=" + Eval("Goods_ID") %>' class="b-link-stripe b-animate-go  thickbox">
-                           <%-- <img class="img-responsive" src='<%# Eval("Goods_Image") %>'' alt=""/>--%>
-                          <asp:Image ID="Pro_img4" runat="server" CssClass="img-responsive"  ImageUrl='<%#String.Concat(Eval("Goods_Image")) %>' />
-					        <div class="b-wrapper">
-					            <h3 class="b-animate b-from-left    b-delay03 ">
-						            <span><%# Eval("Goods_Name") %></span>	
-					            </h3>
-				            </div>
-				        </a>
-                        <asp:Label ID="Label1" runat="server" Font-Names="微软雅黑" Font-Size="10" Text='<%#String.Concat(Eval("Goods_Price")) %>' ForeColor="gray"></asp:Label>
-			        </div>
-                    <div class="col-md-4 grid-top">
-				        <a href='<%# "single.aspx?id=" + Eval("Goods_ID") %>' class="b-link-stripe b-animate-go  thickbox">
-                           <%-- <img class="img-responsive" src='<%# Eval("Goods_Image") %>'' alt=""/>--%>
-                          <asp:Image ID="Image1" runat="server" CssClass="img-responsive"  ImageUrl='<%#String.Concat(Eval("Goods_Image")) %>' />
-					        <div class="b-wrapper">
-					            <h3 class="b-animate b-from-left    b-delay03 ">
-						            <span><%# Eval("Goods_Name") %></span>	
-					            </h3>
-				            </div>
-				        </a>
-                        <asp:Label ID="Label2" runat="server" Font-Names="微软雅黑" Font-Size="10" Text='<%#String.Concat(Eval("Goods_Price")) %>' ForeColor="gray"></asp:Label>
-			        </div>
-                    <div class="col-md-4 grid-top">
-				        <a href='<%# "single.aspx?id=" + Eval("Goods_ID") %>' class="b-link-stripe b-animate-go  thickbox">
-                           <%-- <img class="img-responsive" src='<%# Eval("Goods_Image") %>'' alt=""/>--%>
-                          <asp:Image ID="Image2" runat="server" CssClass="img-responsive"  ImageUrl='<%#String.Concat(Eval("Goods_Image")) %>' />
-					        <div class="b-wrapper">
-					            <h3 class="b-animate b-from-left    b-delay03 ">
-						            <span><%# Eval("Goods_Name") %></span>	
-					            </h3>
-				            </div>
-				        </a>
-                        <asp:Label ID="Label3" runat="server" Font-Names="微软雅黑" Font-Size="10" Text='<%#String.Concat(Eval("Goods_Price")) %>' ForeColor="gray"></asp:Label>
-			        </div>
+            <ItemTemplate>
+                   <div class="col-md-4 grid-top">
+				<a href="single.html" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="<%# Eval("Goods_Image") %>" alt="">
+							<div class="b-wrapper">
+									<h3 class="b-animate b-from-left    b-delay03 ">
+										<span><%# Eval("Goods_Name") %></span>	
+									</h3>
+								</div>
+				</a>
+		
+
+			<p><a href="single.html">Contrary to popular</a></p>
+			</div>
                 </ItemTemplate>
-               
-            </asp:ListView>
-
-
-
-	<%--	<div class="grid-in">
-            <div class="col-md-4 grid-top">
-				<a href="single.aspx" class="b-link-stripe b-animate-go  thickbox">
-                    <img class="img-responsive" src="images/pi.jpg" alt=""/>
-					<div class="b-wrapper">
-					    <h3 class="b-animate b-from-left    b-delay03 ">
-						    <span>T-Shirt</span>	
-					    </h3>
-				    </div>
-				</a>
-		        <p><a href="single.aspx">NIKE</a></p>
-			</div>
-			<div class="col-md-4 grid-top">
-				<a href="single.aspx" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi1.jpg" alt=""/>
-					<div class="b-wrapper">
-									<h3 class="b-animate b-from-left    b-delay03 ">
-										<span>Shoe</span>	
-									</h3>
-								</div>
-				</a>
-			<p><a href="single.aspx">NIKE</a></p>
-			</div>
-			<div class="col-md-4 grid-top">
-				<a href="single.aspx" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi2.jpg" alt=""/>
-					<div class="b-wrapper">
-									<h3 class="b-animate b-from-left    b-delay03 ">
-										<span>Bag</span>	
-									</h3>
-								</div>
-				</a>
-			<p><a href="single.aspx">undoubtable</a></p>
-			</div>
-					<div class="clearfix"> </div>
-		</div>
-		<div class="grid-in">
-			<div class="col-md-4 grid-top">
-				<a href="single.aspx" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi3.jpg" alt=""/>
-					<div class="b-wrapper">
-									<h3 class="b-animate b-from-left    b-delay03 ">
-										<span>Shirt</span>	
-									</h3>
-								</div>
-				</a>
-			<p><a href="single.aspx">suffered alteration</a></p>
-			</div>
-			<div class="col-md-4 grid-top">
-				<a href="single.aspx" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi4.jpg" alt=""/>
-					<div class="b-wrapper">
-									<h3 class="b-animate b-from-left    b-delay03 ">
-										<span>Bag</span>	
-									</h3>
-								</div>
-				</a>
-			<p><a href="single.aspx">Content here</a></p>
-			</div>
-			<div class="col-md-4 grid-top">
-				<a href="single.aspx" class="b-link-stripe b-animate-go  thickbox"><img class="img-responsive" src="images/pi5.jpg" alt=""/>
-					<div class="b-wrapper">
-									<h3 class="b-animate b-from-left    b-delay03 ">
-										<span>Shoe</span>	
-									</h3>
-								</div>
-				</a>
-			<p><a href="single.aspx">readable content</a></p>
-			</div>
-					<div class="clearfix"> </div>
-		</div>--%>
-	</div>
+        </asp:ListView>
+       
+     </div>
+     </div>
+	
 	<!----->
 	
 	<div class="content-top-bottom">
