@@ -2,3 +2,9 @@ E:\工作室项目\Solution1\Models\bin\Debug\Models.dll
 E:\工作室项目\Solution1\Models\bin\Debug\Models.pdb
 E:\工作室项目\Solution1\Models\obj\Debug\Models.dll
 E:\工作室项目\Solution1\Models\obj\Debug\Models.pdb
+C:\Users\陈文凯\work\Models\bin\Debug\Models.dll
+C:\Users\陈文凯\work\Models\bin\Debug\Models.pdb
+C:\Users\陈文凯\work\Models\obj\Debug\Models.dll
+C:\Users\陈文凯\work\Models\obj\Debug\Models.pdb
+C:\Users\陈文凯\work\Models\bin\Debug\Models.dll.CodeAnalysisLog.xml
+C:\Users\陈文凯\work\Models\bin\Debug\Models.dll.lastcodeanalysissucceeded

@@ -5,3 +5,12 @@ E:\工作室项目\Solution1\IDAL\bin\Debug\Models.pdb
 E:\工作室项目\Solution1\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
 E:\工作室项目\Solution1\IDAL\obj\Debug\IDAL.dll
 E:\工作室项目\Solution1\IDAL\obj\Debug\IDAL.pdb
+C:\Users\陈文凯\work\IDAL\bin\Debug\IDAL.dll
+C:\Users\陈文凯\work\IDAL\bin\Debug\IDAL.pdb
+C:\Users\陈文凯\work\IDAL\bin\Debug\Models.dll
+C:\Users\陈文凯\work\IDAL\bin\Debug\Models.pdb
+C:\Users\陈文凯\work\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+C:\Users\陈文凯\work\IDAL\obj\Debug\IDAL.dll
+C:\Users\陈文凯\work\IDAL\obj\Debug\IDAL.pdb
+C:\Users\陈文凯\work\IDAL\bin\Debug\IDAL.dll.CodeAnalysisLog.xml
+C:\Users\陈文凯\work\IDAL\bin\Debug\IDAL.dll.lastcodeanalysissucceeded
